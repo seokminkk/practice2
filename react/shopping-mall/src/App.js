@@ -5,6 +5,7 @@ import ProductAll from './page/ProductAll';
 import Login from './page/Login';
 import ProductDetail from './page/ProductDetail';
 import Navbar from './component/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<ProductAll/>}/>
         <Route path='/login' element={<Login/>}/>
-        <Route path='/product/:id' element={<ProductDetail/>}/>
+        <Route path='/products/:id' element={<ProductDetail/>}/>
 
       </Routes>
     </div>
