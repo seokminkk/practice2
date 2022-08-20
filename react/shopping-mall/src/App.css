@@ -2,12 +2,21 @@
   display: flex;
   justify-content: flex-end;
   margin: 20px;
+cursor: pointer;
 }
+
 .nav-section{
   display: flex;
   justify-content: center;
 }
-
+/* .login-button-text{
+  background-color: white;
+  border-style:none ;
+  
+} */
+/* .login-button-text:hover{
+  background-color: blue;
+} */
 .menu-list{
   display: flex;
   list-style-type: none;

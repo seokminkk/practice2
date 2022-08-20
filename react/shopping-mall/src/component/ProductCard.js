@@ -4,6 +4,7 @@ const ProductCard = ({item}) => {
   return (
     <div className='product-card'>
       <img src={item?.img}/>
+      {/* <div>{item?.choice===true?'concious product':''}</div> */}
       <div>{item?.choice===true?'관심상품':''}</div>
       <div>{item?.title}</div>
       <div>{item?.price}</div>
